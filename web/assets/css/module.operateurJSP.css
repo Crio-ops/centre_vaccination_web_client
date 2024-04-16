@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 nov. 2022, 08:50:51
+    Author     : kevin
+*/
+
+#buttonTab{
+    margin-bottom: 2px;
+    padding: 4px;
+    border: 2px solid #00B83D;
+    border-radius: 3px;
+    color: #000000;
+    font-size: smaller;
+    font-family: cursive;
+    background-color: #00B83D;
+}
+
+#buttonTab:hover{
+    background-color: #097519; 
+}
+
+
+
+#datepicker{
+    float: left;
+    margin-right: 3em;
+    width: 20%;
+}
+
+#datetime{
+    background :  url("../image/clock.png") no-repeat 92.5% 50%;
+    background-size: 17px;
+    background-color: white;
+}
+
+
+#date, #datetime, #modalButton{
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.timePickerContainer{
+    height: 10%;
+    width: 10%
+}
+
+.bootstrap-datetimepicker-widget .btn{
+    display: none;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 2px;
+    width: 15em;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+    width: 54px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.tableListeRdv{
+    position: relative;
+    margin: 1.5em;
+    padding: 5em;
+
+    width: 70%;
+    border: 1px solid #333;
+}
+
+
+
+#affichierTousLesRdvContainer{
+    position: relative;
+    height: 30%;
+    width: 95%
+}
+
+/*#rendezVousParIDContainer{
+    position: relative;
+    height: 20%;
+}*/
+
+/*#formEnssContainer{
+    margin-right: 3em;
+    width: 19%;
+}*/
+
+
+
+#fondvert{
+    background-color: lightgreen;
+}
+
+#fondgris{
+    background-color: lightgray;
+}
+
+#fondorange{
+    background-color: orange;
+}
+
+.input_form{
+     display :inline; 
+}
+
+.button_form{
+     display :inline; 
+     margin-top: 10px
+}
+
+.label_form{
+    display :inline; 
+    margin-left: 0;
+     
+}
+
+#divTabPatient{
+    background-color: lightgray;
+
+}
+
+

@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 nov. 2022, 08:50:51
+    Author     : kevin
+*/
+
+#priseDeRdv{
+    postion : absolute;
+    padding-left: 15px; 
+    margin-top: 2vh;
+    margin-bottom: 25px;
+}
+
+.content{
+    position: absolute;
+    top: 125px;
+    left: 20px; 
+}
+
+#tabCitoyens{
+    padding-top: 50px;
+}
+
+#calendar{
+margin:80px !important;
+
+}
+
+ul {
+  list-style-type: none;
+}
+button{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#date{
+   background-color:#B1C7D1;
+   margin-left: 5px;
+   padding: 5px;
+   border-color: #225F7A; 
+   border-radius: 10px;
+   text-align: center;
+}
+
+#datepicker-div{
+
+    text-align: left;
+}
+
+
+#datepicker{
+    float: left;
+    margin-right: 10px;
+}
+
+#modalButton{
+    background-color: #225F7A;
+    border-radius: 10px;
+    margin-bottom: 5px
+    
+}
+
+#green{
+    margin: 1px;
+    padding: 5px;
+    background-color: #00B83D;
+    border-radius: 5px;
+    font-weight: bold;  
+}
+
+#red{
+    margin: 1px;
+    padding: 5px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    font-weight: bold;  
+}
+
+#txt-rendezVous{
+    color: blue;
+    font-size: x-large;
+}
+
+#rendezVousEffectue{
+    color: green;
+    font-size: x-large;
+}
+
+#rendezVous-supplementaire{
+    color: red;
+    font-size: x-large;
+}
+
+#buttonRdv{
+    color: red;
+    background-color: lightcoral;
+    border-radius: 5px;
+    border: hidden;
+    padding: 5px 5px;
+}

@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 mai 2023, 18:07:07
+    Author     : kevin
+*/
+
+.tableListePatients{
+    position: relative;
+    margin: 1.5em;
+    padding: 1em;
+    width: 70%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    /*border: 5px solid #82c1dc ;*/
+    background-color: lightgray;
+}
+
+.table_listePersonnel {
+    align-self: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 5px;
+}
+
+.table_listePersonnel th,
+.table_listePersonnel td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+.table_listePersonnel th {
+    background: #ccccff;
+}
+.table_listePersonnel td {
+    background: #ABC8E2;
+}
+
+.tableFixHead {
+    float: left;
+    overflow-y: auto;
+    height: 80%;
+    width: auto;
+    overscroll-behavior: contain;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+.tableFixHead thead th {
+    position: sticky;
+    top: 0px; 
+    background-color: #225f7a;
+    color: whitesmoke;
+}
+.table_default {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table_default th,
+.table_default td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+.table_default th {
+    background: #ccccff;
+}
+.table_default td {
+    background: #ABC8E2;
+}
+
+.th_table, .td_table, .tr_table{
+    padding: 10px;
+}
+
+.th_table{
+    border-bottom: 3px solid #225f7a;
+    
+}
+
+.tb_table{
+    background-color: #e2e2e278;  
+}
+td{
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-clip: padding-box;
+    background: whitesmoke; 
+}
+
+.tableFixHead::-webkit-scrollbar-thumb {
+
+    background-clip: padding-box;
+    background: #225f7a; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: whitesmoke; 
+}
+::-webkit-scrollbar-track {
+    background: whitesmoke; 
+}
+
+/*.tb_table :nth-child(n) :hover{
+    background-color: lightsteelblue;
+}*/
+
+
+#table_creation_horaire td select{
+    padding: 10px, 10px;
+    width: 80%;
+    margin: 10px , 10px;
+    text-align: center;
+}

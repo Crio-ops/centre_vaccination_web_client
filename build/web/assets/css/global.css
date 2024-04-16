@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 nov. 2022, 08:50:51
+    Author     : kevin
+*/
+html {
+    scroll-behavior: smooth;
+     
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+#title{
+    display: flex;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.body{
+    position : relative; 
+    background-color : #225f7a;
+    color: #293D46;
+    /*font-family: ;*/
+}
+
+#navbar{
+    position: fixed ;
+}
+
+#section{
+    visibility: visible;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#section1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+
+}
+#section2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+#section3{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+#section4{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+#container{
+    position: absolute;
+    top: 13%;
+    left: 2.5%;
+    height: 85%;
+    width: 95%;
+    padding: 2em 3em;
+    /*border: 10px solid;*/
+    border-radius: 5px ;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.cell-border{
+    color: #293D46;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.button_form{
+    padding: 7px 12px;
+    border:none;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-color: #225F7A;
+}
+
+.input_form{
+    border-radius: 5px;
+    border-color: #225F7A;
+    padding: 5px 10px;
+}
+
+.label_form{
+    margin-left: 15px;
+    font-size: medium;
+    font-weight: 800;   
+} 
+
+
+
+
+/*redimension des icones*/
+
+#tabIcon{
+    height: 2vh;
+    width: 2vh;
+}
+
+#tab-Cal-Icon{
+/*    margin-right: 2em;
+    margin-left: 2em;*/
+    height: 3vh;
+    width: 3vh;
+}
+
+.leafletPopup .leaflet-popup-content-wrapper{
+    background-color: lightgreen;
+}
+
+#button_form{
+    padding: 7px 12px;
+    border:none;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-color: #225F7A;
+}
+
+.button_form{
+    padding: 7px 12px;
+    border:none;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-color: #225F7A;
+}
+
+#errorText{
+    text-align: center;
+    background-color: #F95858;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 17.5em;
+    margin-top: 3px;
+    
+}
+
+#label{
+    font-weight: 600;
+    
+}
+
+#pointageContainer{
+    position: absolute;
+    bottom: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5em;
+}
+
+.pointageEntre {
+    border: 1px solid green;
+    background-color: green;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.pointageSortie {
+    border: 1px solid red;
+    background-color: red;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+ 
